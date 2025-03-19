@@ -129,6 +129,7 @@ function m11() {
       localStorage.setItem("tour3", "hienthi");
     }
     if (localStorage.getItem("matour") === "N012347") {
+      localStorage.setItem("dichvu4", "thuê xe");
       localStorage.setItem("thanhtoantour4", "Tiền Mặt");
       localStorage.setItem("tour4", "hienthi");
     }
