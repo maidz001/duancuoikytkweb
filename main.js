@@ -18,11 +18,14 @@ function m2() {
   let a = document.getElementById("username").value;
   let b = document.getElementById("password").value;
   if (a === localStorage.getItem("tk") && b === localStorage.getItem("mk")) {
-    alert("Chucs Mừng Bạn Đã Đăng Nhập Thành Công");
+    localStorage.setItem("dangki", "an");
+    localStorage.setItem("dangnhap", "an");
+    alert("Chúc Mừng Bạn Đã Đăng Nhập Thành Công");
+
     window.location.href = "index.html";
   } else {
-    document.getElementById("usernameError").innerText = "Sai Tài Khoản ";
-    document.getElementById("passwordError").innerText = "Sai Mật Khẩu";
+    document.getElementById("passwordError").innerText =
+      "Tài khoản hoặc mật khẩu không đúng";
   }
 }
 function m3(button) {
