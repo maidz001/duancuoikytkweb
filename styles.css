@@ -441,3 +441,8 @@ h3 {
 li {
   margin-left: 2vw;
 }
+@media (max-width: 500px) {
+  .nav-item {
+    font-size: 15px; /* Khi màn hình <= 400px */
+  }
+}
