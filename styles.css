@@ -443,6 +443,6 @@ li {
 }
 @media (max-width: 500px) {
   .nav-item {
-    font-size: 15px; /* Khi màn hình <= 400px */
+    font-size: 10px; /* Khi màn hình <= 400px */
   }
 }
