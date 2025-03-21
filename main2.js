@@ -46,3 +46,6 @@ function m10(tour) {
     window.location.href = "dattour.html";
   }
 }
+if (localStorage.getItem("dangnhap") === "an") {
+  document.getElementById("logg").style.display = "none";
+}

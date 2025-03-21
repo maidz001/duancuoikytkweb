@@ -153,3 +153,6 @@ function m11() {
     window.location.href = "thanhtoanthuexe.html";
   }
 }
+if (localStorage.getItem("dangnhap") === "an") {
+  document.getElementById("logg").style.display = "none";
+}

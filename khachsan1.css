@@ -97,7 +97,7 @@ a {
 a:hover {
   color: #fff;
   font-size: x-large;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 body {
   font-family: Arial, sans-serif;
@@ -134,6 +134,7 @@ body {
   color: red;
 }
 .contact {
+  margin-bottom: 10px;
   background: #269191;
   color: white;
   padding: 5px;

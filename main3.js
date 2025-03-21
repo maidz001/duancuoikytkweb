@@ -40,3 +40,6 @@ if (localStorage.getItem("dichvu4") === "thuê xe") {
   document.getElementById("dichvu4").innerText = "Thuê xe";
   document.getElementById("giathuexe4").innerText = "1.000.000vnd";
 }
+if (localStorage.getItem("dangnhap") === "an") {
+  document.getElementById("logg").style.display = "none";
+}

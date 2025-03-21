@@ -61,3 +61,6 @@ function checkdongtour() {
     document.getElementById("tour4").style.display = "none";
   }
 }
+if (localStorage.getItem("dangnhap") === "an") {
+  document.getElementById("logg").style.display = "none";
+}
