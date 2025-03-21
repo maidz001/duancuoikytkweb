@@ -9,7 +9,7 @@ function m18(nameks) {
   localStorage.setItem("nameks", nameks);
   window.location.href = "bookks.html";
 }
-function m19() {
+function m19(xoa) {
   if (
     document.getElementById("gia").value === "tatca" &&
     document.getElementById("dongtour").value === "tatca" &&
@@ -153,4 +153,14 @@ function m19() {
     document.getElementById("ks7").style.display = "none";
     document.getElementById("ks8").style.display = "none";
   }
+}
+function m20() {
+  document.getElementById("ks1").style.display = "";
+  document.getElementById("ks2").style.display = "";
+  document.getElementById("ks3").style.display = "";
+  document.getElementById("ks4").style.display = "";
+  document.getElementById("ks5").style.display = "";
+  document.getElementById("ks6").style.display = "";
+  document.getElementById("ks7").style.display = "";
+  document.getElementById("ks8").style.display = "";
 }
