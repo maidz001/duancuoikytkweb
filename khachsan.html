@@ -40,8 +40,33 @@
           </div>
         </div>
           <div class="help">
+            <div id="boloc">
+              <h3>Bộ Lọc Khách Sạn </h3>
+              <h4>Giá tiền</h4>
+              <select name="" id="gia">
+                <option value="tatca">Tất cả </option>
+                <option value="tren500">Trên 500.000vnd 1 giờ </option>
+                <option value="duoi500">Dưới 500.000vnd 1 giờ </option>
+              </select>
+              <h4>Đánh giá dịch vụ </h4>
+              <select name="" id="danhgia">
+                <option value="tatca">Tất cả</option>
+                <option value="5">5 sao </option>
+                <option value="4">4 sao</option>
+                <option value="3">3 sao</option>
+                <option value="duoi3">Dưới 3 sao</option>
+              </select>
+              <h4>Tiện nghi </h4>
+              <select name="" id="dongtour">
+                <option value="tatca">Tất cả </option>
+                <option value="caocap">Cao cấp </option>
+                <option value="tieuchuan">Tiêu chuẩn </option>
+                <option value="tietkiem">Tiết kiệm </option>
+              </select>
+              <button onclick="m19()" id="apdung">Áp dụng</button>
+            </div>
           <div class="container">
-            <div class="card">
+            <div id="ks1" class="card">
                 <img src="./dao phu quoc.png" alt="Hotel">
                 <div class="card-content">
                     <h3>Vinpearl Resort & Spa Nha Trang Bay</h3>
@@ -49,35 +74,35 @@
                     <p>Đảo Hòn Tre, Phường Vĩnh Nguyên, TP. Nha Trang, Khánh Hòa</p>
                     <p class="discount">Giảm giá: 0%</p>
                     <p class="price">450,000 đ</p>
-                    <a href="./bookks.html" class="contact">Đặt phòng</a>
+                    <a onclick="m18('Vinpearl Resort & Spa Nha Trang Bay')" class="contact">Đặt phòng</a>
                     <a onclick="openMap('Đảo Hòn Tre, Phường Vĩnh Nguyên, TP. Nha Trang, Khánh Hòa')" class="contact"> Đặt phòng trực tiếp?</a>
                 </div>
             </div>
-            <div class="card">
+            <div id="ks2" class="card">
                 <img src="./executive-suite-balcony-view.jpg" alt="Hotel">
                 <div class="card-content">
                     <h3>Sheraton Nha Trang Hotel & Spa</h3>
                     <div class="stars">★★★★★</div>
                     <p>26-28 Trần Phú, TP. Nha Trang, Khánh Hòa</p>
                     <p class="discount">Giảm giá: 0%</p>
-                    <p class="price">450,000 đ</p>
-                    <a href="./bookks.html" class="contact">Đặt phòng</a>
+                    <p class="price">550,000 đ</p>
+                    <a onclick="m18('Sheraton Nha Trang Hotel & Spa')" class="contact">Đặt phòng</a>
                     <a onclick="openMap('26-28 Trần Phú, TP. Nha Trang, Khánh Hòa')" class="contact"> Đặt phòng trực tiếp?</a>
                 </div>
             </div>
-            <div class="card">
+            <div id="ks3" class="card">
                 <img src="./intercontinental-nha-trang-4040412681-2x1.webp" alt="Hotel">
                 <div class="card-content">
                     <h3>InterContinental Nha Trang</h3>
                     <div class="stars">★★★☆☆</div>
                     <p> 32 - 34 Trần Phú, Phường Lộc Thọ, TP. Nha Trang, Khánh Hòa</p>
                     <p class="discount">Giảm giá: 10%</p>
-                    <p class="price">450,000 đ</p>
-                    <a href="./bookks.html" class="contact">Đặt phòng</a>
+                    <p class="price">400,000 đ</p>
+                    <a onclick="m18('InterContinental Nha Trang')" class="contact">Đặt phòng</a>
                     <a onclick="openMap('32 - 34 Trần Phú, Phường Lộc Thọ, TP. Nha Trang, Khánh Hòa')" class="contact"> Đặt phòng trực tiếp?</a>
                 </div>
             </div>
-            <div class="card">
+            <div id="ks4" class="card">
                 <img src="./vinpearl.png" alt="Hotel">
                 <div class="card-content">
                     <h3>Vinpearl Resort Nha Trang</h3>
@@ -85,28 +110,28 @@
                     <p>Đảo Hòn Tre, Nha Trang, Khánh Hòa</p>
                     <p class="discount">Giảm giá: 0%</p>
                     <p class="price">550,000 đ</p>
-                    <a href="./bookks.html" class="contact">Đặt phòng</a>
+                    <a onclick="m18('Vinpearl Resort Nha Trang')" class="contact">Đặt phòng</a>
                     <a onclick="openMap('Đảo Hòn Tre, Nha Trang, Khánh Hòa')" class="contact"> Đặt phòng trực tiếp?</a>
                 </div>
             </div>
-        </div>
-      </div>
-      <div class="hope">
-        <div class="container">
-          <div class="card">
+        <!-- </div> -->
+      <!-- </div>
+      <div class="hope"> -->
+        <!-- <div class="container"> -->
+          <div id="ks5" class="card">
               <img src="./1mc5g12000h16w18c93C6_R_960_660_R5_D.webp" alt="Hotel">
               <div class="card-content">
                   <h3>Sunrise Nha Trang Beach Hotel & Spa</h3>
                   <div class="stars">★★★★☆</div>
                   <p> 12 Trần Phú, TP. Nha Trang, Khánh Hòa
-
+                    <p class="price">450,000 đ</p>
                   </p>
                   <p class="discount">Giảm giá: 5%</p>
-                  <a href="./bookkhachsanj.html" class="contact">Đặt phòng</a>
+                  <a onclick="m18('Sunrise Nha Trang Beach Hotel & Spa')" class="contact">Đặt phòng</a>
                   <a onclick="openMap('12 Trần Phú, TP. Nha Trang, Khánh Hòa')" class="contact"> Đặt phòng trực tiếp?</a>
               </div>
           </div>
-          <div class="card">
+          <div id="ks6" class="card">
               <img src="./charm hills.png" alt="Hotel">
               <div class="card-content">
                   <h3>Mường Thanh Grand Nha Trang Hotel</h3>
@@ -114,11 +139,11 @@
                   <p>Dương Hiến Quyền, Phường Vĩnh Hải, TP. Nha Trang</p>
                   <p class="discount">Giảm giá: 5%</p>
                   <p class="price">450,000 đ</p>
-                  <a href="./bookks.html" class="contact">Đặt phòng</a>
+                  <a onclick="m18('Mường Thanh Grand Nha Trang Hotel')" class="contact">Đặt phòng</a>
                   <a onclick="openMap('Dương Hiến Quyền, Phường Vĩnh Hải, TP. Nha Trang')" class="contact"> Đặt phòng trực tiếp?</a>
               </div>
           </div>
-          <div class="card">
+          <div id="ks7" class="card">
               <img src="./laika.jpg" alt="Hotel">
               <div class="card-content">
                   <h3>Green World Nha Trang</h3>
@@ -126,19 +151,19 @@
                   <p>44 Nguyễn Thị Minh Khai, Phường Lộc Thọ, TP. Nha Trang, Khánh Hòa</p>
                   <p class="discount">Giảm giá: 5%</p>
                   <p class="price">450,000 đ</p>
-                  <a href="./bookks.html" class="contact">Đặt phòng</a>
+                  <a onclick="m18('Green World Nha Trang')" class="contact">Đặt phòng</a>
                   <a onclick="openMap('44 Nguyễn Thị Minh Khai, Phường Lộc Thọ, TP. Nha Trang, Khánh Hòa')" class="contact"> Đặt phòng trực tiếp?</a>
               </div>
           </div>
-          <div class="card">
+          <div id="ks8" class="card">
               <img src="./the marron.png" alt="Hotel">
               <div class="card-content">
                   <h3>Liberty Central Nha Trang</h3>
                   <div class="stars">★★★☆☆</div>
                   <p>9 Biệt Thự, Phường Lộc Thọ, TP. Nha Trang, Khánh Hòa</p>
                   <p class="discount">Giảm giá: 10%</p>
-                  <p class="price">450,000 đ</p>
-                  <a href="./bookks.html" class="contact">Đặt phòng</a>
+                  <p class="price">400,000 đ</p>
+                  <a onclick="m18('Liberty Central Nha Trang')" class="contact">Đặt phòng</a>
                   <a onclick="openMap('9 Biệt Thự, Phường Lộc Thọ, TP. Nha Trang, Khánh Hòa')" class="contact"> Đặt phòng trực tiếp?</a>
               </div>
           </div>
@@ -149,7 +174,7 @@
           <div class="footer-section">
             <h3>Khám phá Việt Nam</h3>
             <div class="footer-section">
-              <p><a href="./bookks.html">Hợp tác với PKTMtravel</a></p>
+              <p><a onclick="m18()">Hợp tác với PKTMtravel</a></p>
             </div>
           </div>
           <div class="footer-section">
@@ -197,7 +222,7 @@
       </footer>
     </div>
 <script src="./main5.js"></script>
-         
+<script src="main7.js"></script>
     
 </body>
 </html>
