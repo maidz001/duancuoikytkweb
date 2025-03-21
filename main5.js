@@ -5,8 +5,9 @@ function openMap(address) {
 if (localStorage.getItem("dangnhap") === "an") {
   document.getElementById("logg").style.display = "none";
 }
-function m18(nameks) {
+function m18(nameks, ks) {
   localStorage.setItem("nameks", nameks);
+  localStorage.setItem("ks", ks);
   window.location.href = "bookks.html";
 }
 function m19(xoa) {

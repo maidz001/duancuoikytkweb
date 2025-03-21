@@ -11,12 +11,12 @@ if (localStorage.getItem("tour4") === "hienthi") {
   document.getElementById("tour4").style.display = "flex";
 }
 if (
-  localStorage.getItem("tour1") !== "hienthi" &&
-  localStorage.getItem("tour2") !== "hienthi" &&
-  localStorage.getItem("tour3") !== "hienthi" &&
-  localStorage.getItem("tour4") !== "hienthi"
+  localStorage.getItem("tour1") === "hienthi" ||
+  localStorage.getItem("tour2") === "hienthi" ||
+  localStorage.getItem("tour3") === "hienthi" ||
+  localStorage.getItem("tour4") === "hienthi"
 ) {
-  document.getElementById("thongbao").innerText = "Hiện bạn chưa đặt tour nào!";
+  document.getElementById("thongbao").innerText = "";
 }
 console.log(localStorage.getItem("tour1"));
 function m9(tourname) {
@@ -25,19 +25,19 @@ function m9(tourname) {
     huytour(tourname);
   }
   if (
-    localStorage.getItem("tour1") !== "hienthi" &&
-    localStorage.getItem("tour2") !== "hienthi" &&
-    localStorage.getItem("tour3") !== "hienthi" &&
-    localStorage.getItem("tour4") !== "hienthi"
+    localStorage.getItem("tour1") === "hienthi" ||
+    localStorage.getItem("tour2") === "hienthi" ||
+    localStorage.getItem("tour3") === "hienthi" ||
+    localStorage.getItem("tour4") === "hienthi"
   ) {
-    document.getElementById("thongbao").innerText =
-      "Hiện bạn chưa đặt tour nào!";
+    document.getElementById("thongbao").innerText = "";
   }
 }
 function huytour(tourname) {
   localStorage.setItem(tourname, "an");
   document.getElementById(tourname).style.display = "none";
   alert("Đã Hủy!!! ");
+  window.location.href = "lichsu.html";
 }
 function m10(tour) {
   if (localStorage.getItem(tour) === "hienthi") {
