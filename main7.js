@@ -1,4 +1,4 @@
-document.getElementById("tenks").value = localStorage.getItem("nameks");
+document.getElementById("nameks").value = localStorage.getItem("nameks");
 function m21() {
   if (document.getElementById("name").value === "") {
     document.getElementById("nametb").innerText === "vui lòng nhập họ và tên";
