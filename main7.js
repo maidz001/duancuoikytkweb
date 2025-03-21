@@ -1,3 +1,6 @@
+alert(
+  "Quý Khách Hnagf Vui Lòng Chú Ý Đến Khách Sạn Check In Đúng Ngày Book Phòng Nhé!!!!!!!!!"
+);
 document.getElementById("nameks").value = localStorage.getItem("nameks");
 function m21() {
   if (document.getElementById("name").value === "") {
