@@ -18,8 +18,6 @@
   }
   #overlay{
     position: relative
-    z-index: 1;
-
   }
   .introduction{
     margin-top: 20px;

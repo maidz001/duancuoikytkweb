@@ -12,6 +12,17 @@
     height: 60px;
     border-radius: 30px;
   }
+  .contact {
+    
+    margin-bottom: 10px;
+    background: #269191;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+  }
   body {
     background-color: #f4f4f4;
     line-height: 1.6;
