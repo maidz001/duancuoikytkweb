@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><Span id="pktm">PKTM</Span>Travle - Du lịch Việt Nam</title>
+    <title><Span id="pktm">PKTM</Span>Travel - Du lịch Việt Nam</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -17,35 +17,54 @@
         <div class="navbar-left">
           <table id="tablenavbar">
             <tr>
+              <td id="tdlogo">
+                <img
+                  id="logo"
+                  src="./z6574029015871_6eb51b2871c47b791da6b9c075185452.jpg"
+                  alt=""
+                />
+              </td>
               <td>
                 <div class="divnav">
-                  <a href="#" class="nav-item home-link"
+                  <a href="./index.html" class="nav-item home-link"
                     ><i class="fas fa-home"></i> Trang chủ</a
                   >
                 </div>
               </td>
               <td>
                 <div class="divnav">
-                  <a href="./khachsan.html" class="nav-item">Khách sạn</a>
+                  <a href="./khachsan.html" class="nav-item home-link"
+                    ><i class="fas fa-hotel"></i>Khách sạn</a
+                  >
                 </div>
               </td>
               <td>
                 <div class="divnav">
-                  <a href="./nhahang.html" class="nav-item">Nhà hàng</a>
+                  <a href="./nhahang.html" class="nav-item home-link"
+                    ><i class="fas fa-utensils"></i>Nhà hàng</a
+                  >
                 </div>
               </td>
               <td>
                 <div class="divnav">
-                  <a href="./vevuichoi.html" class="nav-item">Vé vui chơi</a>
+                  <a href="./vevuichoi.html" class="nav-item home-link"
+                    ><i class="fas fa-gamepad"></i>Vé vui chơi</a
+                  >
                 </div>
               </td>
               <td>
                 <div class="divnav">
-                  <a href="./tourdulich.html" class="nav-item">Tour du lịch</a>
+                  <a href="./tourdulich.html" class="nav-item home-link"
+                    ><i class="fas fa-plane-departure"></i>Tour du lịch</a
+                  >
                 </div>
               </td>
               <td>
-                <div class="divnav"><a href="#" class="nav-item">Khác</a></div>
+                <div class="divnav">
+                  <a   class="nav-item home-link " onclick="alert('Hiện chưa có dịch vụ này,vui lòng quay lại sau!')"
+                    ><i class="fas fa-question"></i>Khác</a
+                  >
+                </div>
               </td>
             </tr>
           </table>
@@ -59,14 +78,12 @@
           >
         </div>
         <div id="dissplaysearch">
-          <button id="button-search" onclick="search()">
-            Tìm Kiếm Theo Địa Điểm
-          </button>
+          <button id="button-search" onclick="search()">Tìm Kiếm</button>
         </div>
       </nav>
       <div id="divsearch">
         <div id="">
-          <h3><span id="pktm1">PKTM</span>Travle</h3>
+          <h3><span id="pktm1">PKTM</span>Travel</h3>
           <div id="divbysearch">
             <div>
               <select name="location1" id="select1">
@@ -145,10 +162,9 @@
           /></a>
         </div>
         <div class="banner-content">
-          <h1><span id="pktm">PKTM</span>Travle</h1>
+          <h1><span id="pktm">PKTM</span>Travel</h1>
           <p>Nền tảng OTA du lịch Việt Nam</p>
           <p class="highlight">
-            Mới hợp tác
             <span>khách sạn, nhà hàng, công ty du lịch lữ hành</span>
           </p>
         </div>
@@ -182,7 +198,7 @@
                 <div class="img2">
                   <div class="divimg">
                     <li>Vinpearl Land</li>
-                    <a href="./hanoi.html"
+                    <a href="./vinpearl.html"
                       ><img
                         class="imgreview"
                         src="./vinpearl-nha-trang.jpg"
@@ -238,17 +254,19 @@
                 </div>
               </div>
             </ol>
-            <h3 style="color: #269191">
+            <h3 style="color: #269191; text-align: center">
               Việt Nam là điểm đến hấp dẫn, phù hợp cho cả du lịch văn hóa,
               thiên nhiên và nghỉ dưỡng!
             </h3>
           </div>
         </span>
         <div class="banner-buttons">
-          <a href="./lehoi-sukien.html"
+          <a href="./Lễ hội- sự Kiện.html"
             ><button class="btn-event">Lễ Hội - Sự Kiện</button></a
           >
-          <a href="./amthuc.html"><button class="btn-event">Ẩm Thực</button></a>
+          <a href="./amthucnhatrang.html"
+            ><button class="btn-event">Ẩm Thực</button></a
+          >
           <a href="./dichvudulich.html"
             ><button class="btn-event">Dịch Vụ Du Lịch</button></a
           >
@@ -300,9 +318,7 @@
               <i class="fab fa-google"></i>
             </p>
             <p>Tải ứng dụng PKTMtravel</p>
-            <a href="#"
-              ><img id="app" src="./Screenshot 2025-03-10 185516.png" />
-            </a>
+            <a href="#"><img id="app" src="./apppp.png" /> </a>
           </div>
         </div>
         <div class="footer-bottom">

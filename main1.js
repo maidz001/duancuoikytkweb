@@ -99,6 +99,6 @@ function m12() {
     window.location.href = "bookingtour.html";
   }
 }
-if (localStorage.getItem("dangnhap") === "an") {
+if (sessionStorage.getItem("dangnhap") === "an") {
   document.getElementById("logg").style.display = "none";
 }

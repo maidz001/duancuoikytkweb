@@ -49,13 +49,13 @@ document.querySelectorAll("select").forEach((select) => {
     }
   });
 });
-if (localStorage.getItem("dangnhap") === "an") {
+if (sessionStorage.getItem("dangnhap") === "an") {
   document.getElementById("logg").style.display = "none";
 }
 function m13() {
-  if (localStorage.getItem("dangnhap") !== "an") {
-    alert("vui lòng đăng nhập để sử dụng tính năng");
-    window.location.href = "dangnhap.html";
+  if (sessionStorage.getItem("dangnhap") !== "an") {
+    if(confirm("vui lòng đăng nhập để sử dụng tính năng")){
+    window.location.href = "dangnhap.html";}
   } else {
     window.location.href = "bookingtour.html";
   }

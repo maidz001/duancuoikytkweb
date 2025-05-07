@@ -24,14 +24,16 @@ input {
 button {
   width: 90%;
   padding: 10px;
-  background: blue;
+  background: #269191
+  ;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 button:hover {
-  background: darkblue;
+  background: #119191
+  ;
 }
 .error {
   color: red;

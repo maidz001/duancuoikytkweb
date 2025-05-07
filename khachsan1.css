@@ -5,6 +5,14 @@
   font-family: Arial, sans-serif;
 }
 
+#tdlogo{
+  width: 50px;
+}
+#logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
 body {
   background-color: #f4f4f4;
   /* line-height: 1.6; */
@@ -53,7 +61,7 @@ body {
 
 .home-link:hover {
   font-size: 1.2em;
-  color: #fff;
+  
 }
 
 .nav-item i {
@@ -84,12 +92,12 @@ body {
 }
 
 .btn-login {
-  background-color: #269191;
+  background-color: #007bff;
   color: #fff;
 }
 
 .btn-login:hover {
-  background-color: #269191;
+  background-color: #009bff;
 }
 a {
   transition: transform 0.3s ease-in-out;

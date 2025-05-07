@@ -44,7 +44,7 @@ body {
 .nav-item:hover {
   transform: scale(1.1);
   font-size: x-large;
-  color: #007bff;
+  color: #1a8c8c;
 }
 
 .home-link {
@@ -53,7 +53,7 @@ body {
 
 .home-link:hover {
   font-size: 1.2em;
-  color: #0056b3;
+  color: #1a8c8c;
 }
 
 .nav-item i {
@@ -340,8 +340,10 @@ body {
   width: 80vw;
 }
 #app {
-  height: 20vw;
-  width: 25vw;
+  height: 15vw;
+  width: 22vw;
+  
+  
 }
 .imgreview {
   border-radius: 15px;
@@ -433,9 +435,10 @@ h3 {
 #button-search {
   border-radius: 10px;
   background-color: #269191;
+  padding: 10px;
   margin-right: 0;
   margin-left: 20%;
-  width: 10vw;
+  width: 4vw;
   height: 100%;
 }
 li {
@@ -443,6 +446,16 @@ li {
 }
 @media (max-width: 500px) {
   .nav-item {
-    font-size: 10px; /* Khi màn hình <= 400px */
+    font-size: 10px; 
   }
+  
+}
+
+#tdlogo{
+  width: 50px;
+}
+#logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
 }

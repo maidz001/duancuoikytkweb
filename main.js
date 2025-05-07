@@ -8,8 +8,8 @@ function m1() {
     document.getElementById("passwordError").innerText =
       "Bạn Cần nhập mật khẩu ";
   } else {
-    localStorage.setItem("tk", a);
-    localStorage.setItem("mk", b);
+    sessionStorage.setItem("tk", a);
+    sessionStorage.setItem("mk", b);
     alert("Đăng Ký Thành Công ");
     window.location.href = "dangnhap.html";
   }
@@ -17,9 +17,9 @@ function m1() {
 function m2() {
   let a = document.getElementById("username").value;
   let b = document.getElementById("password").value;
-  if (a === localStorage.getItem("tk") && b === localStorage.getItem("mk")) {
-    localStorage.setItem("dangki", "an");
-    localStorage.setItem("dangnhap", "an");
+  if (a === sessionStorage.getItem("tk") && b === sessionStorage.getItem("mk")) {
+    sessionStorage.setItem("dangki", "an");
+    sessionStorage.setItem("dangnhap", "an");
     alert("Chúc Mừng Bạn Đã Đăng Nhập Thành Công");
 
     window.location.href = "index.html";
@@ -153,6 +153,6 @@ function m11() {
     window.location.href = "thanhtoanthuexe.html";
   }
 }
-if (localStorage.getItem("dangnhap") === "an") {
+if (sessionStorage.getItem("dangnhap") === "an") {
   document.getElementById("logg").style.display = "none";
 }

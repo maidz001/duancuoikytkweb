@@ -2,7 +2,7 @@ function openMap(address) {
   let url = `https://www.google.com/maps?q=${encodeURIComponent(address)}`;
   window.open(url, "_blank");
 }
-if (localStorage.getItem("dangnhap") === "an") {
+if (sessionStorage.getItem("dangnhap") === "an") {
   document.getElementById("logg").style.display = "none";
 }
 function m18(nameks, ks) {
